@@ -1,3 +1,7 @@
+# Locksmith Theme for Typora
+
+This is a space saving version of LostKeys:
+
 # LostKeys Theme for Typora
 
 ![preview](preview.png)
