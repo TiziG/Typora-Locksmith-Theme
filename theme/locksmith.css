@@ -315,6 +315,16 @@ p {
 
 }
 
+/* Table of Contents */
+.md-toc-h1 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+.md-toc-h2 {
+  font-weight: bold;
+}
+
 /**
  * Code Fences
  * see http:/*support.typora.io/Code-Block-Styles
