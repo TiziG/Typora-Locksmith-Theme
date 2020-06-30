@@ -6,19 +6,20 @@
   --code-bg-color: #f8f8f8;
   --font-color: #5b6666;
   --header-color: #363c3c;
-  --link-color: #f0423d;
+  --link-color: #009ee3;
   /* */
   --body-font: 'source-sans-pro', sans-serif;
   --border-radius: 2px;
   --document-horizontal-margin: 80px;
   --document-padding-x: 10ch;
   --font-size: 16px;
-  --h1-fontsize: 2rem;
-  --h2-fontsize: 1.5rem;
-  --h3-fontsize: 1.125rem;
+  --h1-fontsize: 3.5rem;
+  --h2-fontsize: 2rem;
+  --h3-fontsize: 1.5rem;
+  --h4-fontsize: 1.125rem;
   --line-height: 1.4;
   --main-content-margin: 0 auto;
-  --main-content-max-width: 100ch;
+  --main-content-max-width: 120ch;
   --monospace-font-size: 14px;
   --monospace-font: 'source-code-pro', monospace;
   --monospace-line-height: 1.4;
@@ -137,29 +138,42 @@ h1 {
   font-size: var(--h1-fontsize);
   font-weight: bold;
   color: var(--header-color);
+  border-bottom: 1px solid #eee;
 }
 h1:not(:first-child) {
   margin-top: 3rem;
 }
 
-
 h2 {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
   font-size: var(--h2-fontsize);
   font-weight: bold;
   color: var(--header-color);
+  border-bottom: 1px solid #eee;
+}
+h2:not(:first-child) {
+  margin-top: 3rem;
 }
 
+
 h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-size: var(--h3-fontsize);
   font-weight: bold;
   color: var(--header-color);
 }
 
-h4, h5, h6 {
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: var(--h4-fontsize);
+  font-weight: bold;
+  color: var(--header-color);
+}
+
+h5, h6, h7 {
   margin-top: 1rem;
   margin-bottom: 0rem;
   font-size: 1rem;
@@ -168,7 +182,8 @@ h4, h5, h6 {
 
 h1::before,
 h2::before,
-h3::before {
+h3::before,
+h4::before {
   font-weight: 400;
   font-size: 1rem;
   text-align: right;
@@ -189,6 +204,10 @@ h2::before {
 
 h3::before {
   content: '#3';
+}
+
+h4::before {
+  content: '#4';
 }
 
 /* table */
@@ -227,15 +246,14 @@ h2 + table tr:first-child td,
 
 /* lists */
 ul {
-
+  padding-left: 2rem;
 }
 
 ol {
-
+  padding-left: 2rem;
 }
 
 ul li {
-
 }
 
 li p {
@@ -274,7 +292,7 @@ hr {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 /* diagram panel */
