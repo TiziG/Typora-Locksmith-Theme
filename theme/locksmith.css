@@ -42,27 +42,27 @@
     font-family: 'source-sans-pro';
     font-style: normal;
     font-weight: normal;
-    src: local('source-sans-pro'), local('SourceSansPro-Regular'), url('./lostkeys/SourceSansPro-Regular.ttf');
+    src: local('source-sans-pro'), local('SourceSansPro-Regular'), url('./locksmith/SourceSansPro-Regular.ttf');
 }
 @font-face {
     font-family: 'source-sans-pro';
     font-style: italic;
     font-weight: normal;
-    src: local('source-sans-pro'), local('SourceSansPro-It'), url('./lostkeys/SourceSansPro-It.ttf')
+    src: local('source-sans-pro'), local('SourceSansPro-It'), url('./locksmith/SourceSansPro-It.ttf')
 }
 
 @font-face {
     font-family: 'source-sans-pro';
     font-style: normal;
     font-weight: bold;
-    src: local('source-sans-pro'), local('SourceSansPro-Semibold'), url('./lostkeys/SourceSansPro-Semibold.ttf')
+    src: local('source-sans-pro'), local('SourceSansPro-Semibold'), url('./locksmith/SourceSansPro-Semibold.ttf')
 }
 
 @font-face {
     font-family: 'source-sans-pro';
     font-style: italic;
     font-weight: bold;
-    src: local('source-sans-pro'), local('SourceSansPro-SemiboldIt'), url('./lostkeys/SourceSansPro-SemiboldIt.ttf')
+    src: local('source-sans-pro'), local('SourceSansPro-SemiboldIt'), url('./locksmith/SourceSansPro-SemiboldIt.ttf')
 }
 
 /* Monospace font */
@@ -70,27 +70,27 @@
     font-family: 'source-code-pro';
     font-style: normal;
     font-weight: normal;
-    src: local('source-code-pro'), local('SourceCodePro-Regular'), url('./lostkeys/SourceCodePro-Regular.otf');
+    src: local('source-code-pro'), local('SourceCodePro-Regular'), url('./locksmith/SourceCodePro-Regular.otf');
 }
 @font-face {
     font-family: 'source-code-pro';
     font-style: italic;
     font-weight: normal;
-    src: local('source-code-pro'), local('SourceCodePro-It'), url('./lostkeys/SourceCodePro-It.otf')
+    src: local('source-code-pro'), local('SourceCodePro-It'), url('./locksmith/SourceCodePro-It.otf')
 }
 
 @font-face {
     font-family: 'source-code-pro';
     font-style: normal;
     font-weight: bold;
-    src: local('source-code-pro'), local('SourceCodePro-Semibold'), url('./lostkeys/SourceCodePro-Semibold.otf')
+    src: local('source-code-pro'), local('SourceCodePro-Semibold'), url('./locksmith/SourceCodePro-Semibold.otf')
 }
 
 @font-face {
     font-family: 'source-code-pro';
     font-style: italic;
     font-weight: bold;
-    src: local('source-code-pro'), local('SourceCodePro-SemiboldIt'), url('./lostkeys/SourceCodePro-SemiboldIt.otf')
+    src: local('source-code-pro'), local('SourceCodePro-SemiboldIt'), url('./locksmith/SourceCodePro-SemiboldIt.otf')
 }
 
 html {
